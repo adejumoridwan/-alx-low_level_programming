@@ -1,0 +1,24 @@
+/*
+ * File - 5-print_numbers.c
+ * Author: Adejumo Ridwan Suleiman
+ */
+#include <stdio.h>
+
+/**
+ * main - print numbers
+ * Return: Always 0
+ */
+
+int main(void)
+{
+	int x;
+
+	for (x = 0; x <= 9; x++)
+	{
+		putchar((x % 10) + '0');
+	}
+
+	putchar('\n');
+
+	return (0);
+}

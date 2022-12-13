@@ -3,6 +3,7 @@
  * Auth - Adejumo Ridwan Suleiman
  */
 #include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet - function to print alphabets
  */

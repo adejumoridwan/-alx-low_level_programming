@@ -5,13 +5,10 @@
 #include "main.h"
 #include <stdio.h>
 
-
 /**
  * print_alphabet - prints te letters of the alphabet in lowercase
  * 
  */
-void print_alphaber(void);
-
 void print_alphabet(void)
 {
 	char letter;
@@ -22,13 +19,13 @@ void print_alphabet(void)
 	putchar('\n');
 }
 /**
- * main - print_alphabets
+ * main - print alphabets
  * Return: always 0
  */
 int main(void)
 {
 	print_alphabet();
-	
+
 	return (0);
 }
 

@@ -15,17 +15,6 @@ void print_alphabet(void)
 	{
 		putchar(c);
 	}
-}
-/**
- * main - use print_alphabet() function
- * Return: Always 0
- */
-int main(void)
-{
-	print_alphabet();
+
 	putchar('\n');
-
-	return (0);
 }
-
-

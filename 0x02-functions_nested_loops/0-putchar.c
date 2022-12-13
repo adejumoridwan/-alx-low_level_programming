@@ -2,7 +2,7 @@
  * File - 0-puchar.c
  * Author - Adejumo Ridwan Suleiman
  */
-#include "main.h"
+#include <stdio.h>
 /**
  *printWord - print the word "_putchar"
  */

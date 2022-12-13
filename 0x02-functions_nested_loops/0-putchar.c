@@ -9,7 +9,7 @@
  */
 void printWord(void)
 {
-	printf("_putchar\n");
+	_putchar("_putchar\n");
 }
 /**
  *main - print the word "_putchar"

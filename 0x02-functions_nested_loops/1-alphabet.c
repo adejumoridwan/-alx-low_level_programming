@@ -2,7 +2,6 @@
  * File - alphabet.c
  * Auth - Adejumo Ridwan Suleiman
  */
-#include "main.h"
 #include <stdio.h>
 
 /**

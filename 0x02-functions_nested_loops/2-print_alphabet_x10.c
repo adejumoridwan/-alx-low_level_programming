@@ -1,32 +1,20 @@
-/*
- * File - alphabet.c
- * Auth - Adejumo Ridwan Suleiman
- */
-#include <stdio.h>
+#include "main.h"
+
 /**
- * print_alphabet - function to print alphabets
+ * print_alphabet_x10 - Entry point
+ * Description: a function that prints the alphabets 10 times,
+ * in lowercase followed by a new line
+ * Return: void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	int i;
 	char c;
+	int i;
 
 	for (i = 0; i < 10; i++)
 	{
 		for (c = 'a'; c <= 'z'; c++)
-			putchar(c);
-		putchar('\n');
+			_putchar(c);
+		_putchar('\n');
 	}
 }
-/**
- * main - use print_alphabet() function
- * Return: Always 0
- */
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
-
-

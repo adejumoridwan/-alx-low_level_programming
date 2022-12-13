@@ -1,23 +1,22 @@
-/*
- * File - 0-puchar.c
- * Author - Adejumo Ridwan Suleiman
- */
-#include <stdio.h>
 #include "main.h"
 /**
- *printWord - print the word "_putchar"
+ * main - Entry point
+ * Description: prints "_putchar\n"
+ * Return: Always 0
  */
-void printWord(void)
-{
-	_putchar("_putchar\n");
-}
-/**
- *main - print the word "_putchar"
- *Return: always 0
- */
+
 int main(void)
 {
-	printWord();
+	char str[] = "_putchar\n";
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		char c = str[i];
+
+		_putchar(c);
+		i++;
+	}
 
 	return (0);
 }

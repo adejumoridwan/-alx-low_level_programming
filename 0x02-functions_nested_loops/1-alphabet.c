@@ -2,13 +2,16 @@
  * File - alphabet.c
  * Auth - Adejumo Ridwan Suleiman
  */
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * print_alphabet - prints te letters of the alphabet in lowercase
  * 
  */
+void print_alphaber(void);
+
 void print_alphabet(void)
 {
 	char letter;

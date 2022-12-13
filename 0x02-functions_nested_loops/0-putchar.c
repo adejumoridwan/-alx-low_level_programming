@@ -3,6 +3,7 @@
  * Author - Adejumo Ridwan Suleiman
  */
 #include <stdio.h>
+#include "main.h"
 /**
  *printWord - print the word "_putchar"
  */

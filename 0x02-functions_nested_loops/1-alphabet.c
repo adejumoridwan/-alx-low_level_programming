@@ -18,3 +18,14 @@ void print_alphabet(void)
 
 	putchar('\n');
 }
+/**
+ * main - print_alphabets
+ * Return: always 0
+ */
+int main(void)
+{
+	print_alphabet();
+	
+	return (0);
+}
+

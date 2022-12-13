@@ -2,19 +2,18 @@
  * File - alphabet.c
  * Auth - Adejumo Ridwan Suleiman
  */
-#include <stdio.h>
 #include "main.h"
+
 /**
- * print_alphabet - function to print alphabets
+ * print_alphabet - prints te letters of the alphabet in lowercase
+ * 
  */
 void print_alphabet(void)
 {
-	char c;
+	char letter;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		putchar(c);
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 }

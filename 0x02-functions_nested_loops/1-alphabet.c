@@ -1,30 +1,16 @@
-/*
- * File - alphabet.c
- * Auth - Adejumo Ridwan Suleiman
- */
-#include <stdio.h>
+#include "main.h"
 
 /**
- * print_alphabet - prints te letters of the alphabet in lowercase
- * 
+ * print_alphabet - Entry point
+ * Description: a function that prints the alphabet,
+ * in lowercase followed by a new line
+ * Return: void
  */
 void print_alphabet(void)
 {
-	char letter;
+	char c;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
-	putchar('\n');
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
-/**
- * main - print alphabets
- * Return: always 0
- */
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
-
